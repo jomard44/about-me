@@ -1,18 +1,23 @@
+
 body{
+    border: solid 10px #fbff03;
     background-image: utl("back.jpg");
     background-size: cover;
-    background-color: #284ac3;
+    background-color: #0000ff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: capitalize;
     text-align: center;
+    color: #ffffff;
+
     
 }
 header{
     text-align:center;
-    background-color: #284ac3;
+    background-color: #0000ff;
+    padding: 3px;
 }
 h2{
-    color: #fff200;
+    color: #fbff03;
     text-align: center;
 }
 blockquote{
@@ -20,8 +25,8 @@ blockquote{
 }
 nav{
     display:block;
-    border:5px solid #ff0000;
-    background-color: #284ac3;
+    border: #fbff03 solid ;
+    background-color: #0000ff;
 }
 ul{
     list-style: none;
@@ -31,29 +36,29 @@ ul{
 }
 li{
     display:inline-block;
-    padding: 10px;
+    padding: 20px;
+    margin: 10px;
+    border: solid #fbff03;
+    background-color: #00000;
 
 }
+
 img{
     max-width: 100px;
-    border: 10px solid red;
-    border-radius: 75%;
-    position:relative
+    border: 10px solid #fbff03;
+    border-radius: 50%;
+    position:relative;
     
-}
-img.porfolio{
-    border: 10px solid red;
-    width: 100px;
-   
+    
 }
 
 
 footer{
     text-align: center;
-    color:red;
+    border: solid 5px #fbff03;
 
 }
 a{
-    color: red;
+    color: #fbff03;
 
 }

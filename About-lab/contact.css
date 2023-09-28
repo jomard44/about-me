@@ -1,0 +1,20 @@
+body.ct{
+
+    text-transform: capitalize;
+    font-size: xx-large;
+    text-align: center;
+    border: solid 15px #ff0000;
+    background-color: #0000ff;
+    color:#ffffff;
+    padding: 20%;
+    
+}
+a{
+    color:#ff0000;
+}
+li.home{
+    list-style: none;
+    border: 10px solid #ff0000;
+    padding:5px;
+
+}
